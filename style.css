@@ -16,8 +16,13 @@ h2 {
   color: purple;
 }
 
+p {
+  line-height: 1.5em;
+}
+
 img {
   width: 300px;
+  border-radius: 5px;
 }
 
 a {
@@ -27,6 +32,21 @@ a {
 
 a:hover {
   color: purple;
+}
+
+button {
+  background:    white;
+  border:        2px solid rgb(130, 61, 128, 0.5);
+  border-radius: 12px;
+  padding:       10px 20px;
+  color:         #823D80;
+  display:       inline-block;
+  font:          normal 18px/1 "Ubuntu", sans-serif;
+  text-align:    center;
+}
+
+button:hover {
+  border: 2px solid rgb(130, 61, 128, 1);
 }
 
 .container {
